@@ -4,3 +4,7 @@ pip install pysimverse
 
 GIT:
 github.com/daiafuentes/DGITelloPy
+
+
+pip install --force-reinstall --no-cache-dir opencv-python
+pip install opencv-contrib-python <= для того чтобы поддержать cv2.CascadeClassifier
