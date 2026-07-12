@@ -1,1 +1,6 @@
+site: pysimverse.com
+
 pip install pysimverse
+
+GIT:
+github.com/daiafuentes/DGITelloPy
