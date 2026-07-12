@@ -1,0 +1,12 @@
+Good connect
+
+[INFO] tello.py - 129 - Tello instance was initialized. Host: '192.168.10.1'. Port: '8889'.
+[INFO] tello.py - 438 - Send command: 'command'
+[INFO] tello.py - 462 - Response command: 'ok'
+
+Install Package
+- djitellopy
+- numpy
+- opencv-python
+- pygame
+- setuptools
