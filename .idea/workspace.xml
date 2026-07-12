@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76bc2c44-fbc2-4f23-bd6f-83bb739f52b6" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/real_drone/ImageCapture.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/real_drone/FaceTracking.py" beforeDir="false" afterPath="$PROJECT_DIR$/real_drone/FaceTracking.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/real_drone/ColorPicker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/real_drone/DroneFollowerLine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -253,7 +254,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783894711230</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update">
+      <option name="closed" value="true" />
+      <created>1783895231329</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1783895231329</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
