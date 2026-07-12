@@ -8,3 +8,9 @@ github.com/daiafuentes/DGITelloPy
 
 pip install --force-reinstall --no-cache-dir opencv-python
 pip install opencv-contrib-python <= для того чтобы поддержать cv2.CascadeClassifier
+
+Источники на видео на YouTube:
+https://www.youtube.com/watch?v=LmEcyQnfpDA&t=7526s
+https://www.youtube.com/watch?v=hedBZ_ViAGo&t=2494s
+
+https://www.youtube.com/watch?v=RLD5H_gKCc4
