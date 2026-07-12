@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76bc2c44-fbc2-4f23-bd6f-83bb739f52b6" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/real_drone/KeyActionModule.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/real_drone/MoveDroneByMap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/real_drone/Program000.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/real_drone/SampleKeyboardPress.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/real_drone/KeyboardModule.py" beforeDir="false" afterPath="$PROJECT_DIR$/real_drone/KeyboardControl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_drone/MoveDroneByMap.py" beforeDir="false" afterPath="$PROJECT_DIR$/real_drone/MoveDroneByMap.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,8 +58,8 @@
       <recent name="D:\DRONES\CODE_TELLO_DRONE\DroneEdu\pythonProject\simulator" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.MoveDroneByMap">
-    <configuration name="KeyActionModule" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.KeyActionModule (1)">
+    <configuration name="KeyActionModule (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -76,7 +72,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\DRONES\CODE_TELLO_DRONE\DroneEdu\pythonProject\real_drone\KeyActionModule.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/real_drone/KeyActionModule.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -175,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.KeyActionModule (1)" />
         <item itemvalue="Python.MoveDroneByMap" />
         <item itemvalue="Python.Program000" />
         <item itemvalue="Python.KeyboardControl" />
         <item itemvalue="Python.first_flight" />
-        <item itemvalue="Python.KeyActionModule" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +219,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783860893204</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update">
+      <option name="closed" value="true" />
+      <created>1783873763400</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1783873763400</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

@@ -33,7 +33,7 @@ def getKeyboardInput():
     lr, fb, ud, yv = 0, 0, 0, 0
     speed = 50
     d = 0
-    global yaw, x, y
+    global yaw, x, y, a
 
     if kp.getKey("LEFT"):
         lr = -speed
@@ -79,21 +79,31 @@ def getKeyboardInput():
         cv2.imwrite(f'DataSource/Pictures/{time.time()}.jpg', img)
         time.sleep(0.3)
 
+    time.sleep(interval)
+
+
     a += yaw
     x += int(d*math.cos(math.radians(a)))
     y += int(d*math.sin(math.radians(a)))
 
-    return [lr, fb, ud, yv]
+    return [lr, fb, ud, yv, x, y]
 
-def drawpoints():
-    cv2.circle(img, (300, 500), 20, (0, 0, 255), cv2.FILLED)
+def drawpoints(img, points):
+    for point in points:
+        cv2.circle(img, (points), 5, (0, 0, 255), cv2.FILLED)
+
+    #cv2.circle(img, (points[0], points[1]), 20, (0, 0, 255), cv2.FILLED)
 
 
 while True:
     vals = getKeyboardInput()
+
     drone.send_rc_control(vals[0], vals[1], vals[2], vals[3])
+
     img = np.zeros((1000, 1000, 3), np.uint8)
-    drawpoints()
+
+    points.append((vals[4], vals[5]))
+    drawpoints(img, points)
 
     cv2.imshow("Output", img)
     cv2.waitKey(1)
