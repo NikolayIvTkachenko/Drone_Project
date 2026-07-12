@@ -5,26 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76bc2c44-fbc2-4f23-bd6f-83bb739f52b6" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/DataSource/Haar/haarcascade_eye.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSource/Haar/haarcascade_eye_tree_eyeglasses.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSource/Haar/haarcascade_frontalcatface.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSource/Haar/haarcascade_frontalcatface_extended.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSource/Haar/haarcascade_frontalface_alt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSource/Haar/haarcascade_frontalface_alt2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSource/Haar/haarcascade_frontalface_alt_tree.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSource/Haar/haarcascade_frontalface_default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSource/Haar/haarcascade_fullbody.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSource/Haar/haarcascade_lefteye_2splits.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSource/Haar/haarcascade_license_plate_rus_16stages.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSource/Haar/haarcascade_lowerbody.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSource/Haar/haarcascade_profileface.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSource/Haar/haarcascade_righteye_2splits.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSource/Haar/haarcascade_russian_plate_number.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSource/Haar/haarcascade_smile.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataSource/Haar/haarcascade_upperbody.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/real_drone/FaceTracking.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Docs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Docs.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real_drone/FaceTracking.py" beforeDir="false" afterPath="$PROJECT_DIR$/real_drone/FaceTracking.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,7 +237,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783874882429</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update">
+      <option name="closed" value="true" />
+      <created>1783887916123</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1783887916123</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
