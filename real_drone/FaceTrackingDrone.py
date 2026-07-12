@@ -1,5 +1,16 @@
 import cv2
 import numpy as np
+from djitellopy import tello
+
+drone = tello.Tello()
+drone.connect()
+
+print(drone.get_battery())
+
+drone.streamon()
+drone.takeoff()
+
+
 
 w, h = 360, 240
 fbRange = [6200, 6800]
@@ -55,25 +66,25 @@ def trackFace(info, w, pid, pError):
         error = 0
 
     print(speed, fb)
-
-    # me.send_rc_control(0, fb, 0, speed)
+    drone.send_rc_control(0, fb, 0, speed)
     return error
 
-cap = cv2.VideoCapture(0)
+# cap = cv2.VideoCapture(0)
 
 while True:
-    success, img = cap.read()
-
+    # success, img = cap.read()
+    img = drone.get_frame_read().frame
     img = cv2.resize(img, (w, h))
-
     img, info = findFace(img)
-
     pError = trackFace(info, w, pid, pError)
 
     print("Center", info[0], "Area", info[1])
 
     cv2.imshow("Output", img)
-    cv2.waitKey(1)
+    if cv2.waitKey(1) & 0xFF == ord('q'):
+        drone.land()
+        break
+    #cv2.waitKey(1)
 
 
 
