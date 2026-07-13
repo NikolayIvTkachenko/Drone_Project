@@ -33,24 +33,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.FaceTracking.executor&quot;: &quot;Run&quot;,
-    &quot;Python.KeyActionModule (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.KeyboardControl.executor&quot;: &quot;Run&quot;,
-    &quot;Python.KeyboardModule.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MoveDroneByMap.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Program000.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Program001.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Program002_video.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Program01.executor&quot;: &quot;Run&quot;,
-    &quot;Python.first_flight.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/DRONES/CODE_TELLO_DRONE/DroneEdu/pythonProject/docs&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.DroneFollowerLine.executor": "Run",
+    "Python.FaceTracking.executor": "Run",
+    "Python.KeyActionModule (1).executor": "Run",
+    "Python.KeyboardControl.executor": "Run",
+    "Python.KeyboardModule.executor": "Run",
+    "Python.MoveDroneByMap.executor": "Run",
+    "Python.Program000.executor": "Run",
+    "Python.Program001.executor": "Run",
+    "Python.Program002_video.executor": "Run",
+    "Python.Program01.executor": "Run",
+    "Python.first_flight.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/DRONES/CODE_TELLO_DRONE/DroneEdu/pythonProject/docs",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\DRONES\CODE_TELLO_DRONE\DroneEdu\pythonProject\docs" />
@@ -60,7 +61,29 @@
       <recent name="D:\DRONES\CODE_TELLO_DRONE\DroneEdu\pythonProject\simulator" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.FaceTracking">
+  <component name="RunManager" selected="Python.DroneFollowerLine">
+    <configuration name="DroneFollowerLine" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/real_drone" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/real_drone/DroneFollowerLine.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="FaceTracking" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
@@ -149,35 +172,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Program000" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/real_drone" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/real_drone/Program000.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.DroneFollowerLine" />
         <item itemvalue="Python.FaceTracking" />
         <item itemvalue="Python.KeyboardControl" />
         <item itemvalue="Python.KeyActionModule (1)" />
         <item itemvalue="Python.MoveDroneByMap" />
-        <item itemvalue="Python.Program000" />
       </list>
     </recent_temporary>
   </component>
@@ -277,7 +278,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783897093138</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="update">
+      <option name="closed" value="true" />
+      <created>1783898584824</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1783898584824</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
