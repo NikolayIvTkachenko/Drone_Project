@@ -12,15 +12,15 @@ drone.speed = 30
 drone.takeoff()
 
 time.sleep(8)
-drone.move_forward(50)
+drone.move_forward(30)
 
 time.sleep(3)
-drone.move_back(50)
+drone.move_back(30)
 
 time.sleep(3)
-drone.move_left(50)
+drone.move_left(30)
 time.sleep(3)
-drone.move_right(50)
+drone.move_right(30)
 time.sleep(3)
 
 drone.rotate_clockwise(90)
