@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76bc2c44-fbc2-4f23-bd6f-83bb739f52b6" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/docs/Matrix_Drone_Research_Paper.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/RoboMaster_TT_Tello_Talent_User_Manual_ru.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/TelloDocumentationCommand.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/TelloDocumentationCommand.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +60,7 @@
       <recent name="D:\DRONES\CODE_TELLO_DRONE\DroneEdu\pythonProject\simulator" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\DRONES\CODE_TELLO_DRONE\DroneEdu\pythonProject\docs" />
       <recent name="D:\DRONES\CODE_TELLO_DRONE\DroneEdu\pythonProject\simulator" />
     </key>
   </component>
@@ -313,7 +313,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783947574439</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="update">
+      <option name="closed" value="true" />
+      <created>1784066722409</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1784066722409</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

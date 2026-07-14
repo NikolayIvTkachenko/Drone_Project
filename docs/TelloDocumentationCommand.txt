@@ -1,0 +1,80 @@
+Подключение дрона и установка соединения
+
+from djitellopy import Tello
+tello = Tello()
+tello.connect()  # Устанавливаем соединение
+
+
+tello.takeoff() - взлет
+
+tello.land() - презимление
+
+tello.move_up(distance) - подняться на заданное расстояние (20–500 см)
+
+tello.move_down(distance) — опуститься
+
+tello.move_left(distance)
+
+tello.move_right(distance)
+
+tello.move_forward(distance)
+
+tello.move_backward(distance)
+
+tello.rotate_clockwise(angle) (по часовой)
+
+tello.rotate_counter_clockwise(angle) (против часовой)
+
+tello.flip(direction) — выполнить кувырок (direction: l, r, f, b, bl, br, fl, fr)
+
+tello.go_to(x, y, z, speed) — полететь в точку с заданными координатами (x, y, z) с указанной скоростью
+
+tello.streamon() (включить)
+
+tello.streamoff() (выключить
+
+tello.get_battery() — получить уровень заряда батареи
+
+tello.send_rc_control(left, forward, up, yaw) — имитировать управление с пульта (значения от -100 до 100)
+
+tello.emergency() — немедленно остановить моторы
+
+tello.reboot() — перезагрузить дрон
+
+tello.motor_on() / tello.motor_off() — включить/выключить режим работы моторов
+
+tello.wifi_wait_for_network() — автоматически подключиться к Wi-Fi дрона
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
