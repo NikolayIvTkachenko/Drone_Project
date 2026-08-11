@@ -1,0 +1,10 @@
+text = []
+f = open('QR_code/whoWas.txt', 'w')
+for i in range(5):
+    text.append("Guest " + str(i + 1) + "\n")
+print("Create")
+
+for i in range(5):
+    f.write(text[i])
+f.close()
+print("Write")
